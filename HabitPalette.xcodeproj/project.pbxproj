@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12D03B38494DC9C50BD7BEA4 /* Pods_HabitPalette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ECF35FCF9F9493328721B6 /* Pods_HabitPalette.framework */; };
 		AE9AEC50264CF77400425423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9AEC4F264CF77400425423 /* AppDelegate.swift */; };
 		AE9AEC52264CF77400425423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9AEC51264CF77400425423 /* SceneDelegate.swift */; };
 		AE9AEC54264CF77400425423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9AEC53264CF77400425423 /* ViewController.swift */; };
-		AE9AEC57264CF77400425423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9AEC55264CF77400425423 /* Main.storyboard */; };
 		AE9AEC59264CF77500425423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9AEC58264CF77500425423 /* Assets.xcassets */; };
 		AE9AEC5C264CF77500425423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9AEC5A264CF77500425423 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13ECF35FCF9F9493328721B6 /* Pods_HabitPalette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitPalette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		854F670A46B3A84DCEC35AA7 /* Pods-HabitPalette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitPalette.debug.xcconfig"; path = "Target Support Files/Pods-HabitPalette/Pods-HabitPalette.debug.xcconfig"; sourceTree = "<group>"; };
 		AE9AEC4C264CF77400425423 /* HabitPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9AEC4F264CF77400425423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE9AEC51264CF77400425423 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AE9AEC53264CF77400425423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE9AEC56264CF77400425423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE9AEC58264CF77500425423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE9AEC5B264CF77500425423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AE9AEC5D264CF77500425423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9AEC5D264CF77500425423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "HabitPalette/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		E7903328AD150DAF980918D3 /* Pods-HabitPalette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitPalette.release.xcconfig"; path = "Target Support Files/Pods-HabitPalette/Pods-HabitPalette.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D03B38494DC9C50BD7BEA4 /* Pods_HabitPalette.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		779F025ED133D3EDE559BFAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13ECF35FCF9F9493328721B6 /* Pods_HabitPalette.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE9AEC43264CF77400425423 = {
 			isa = PBXGroup;
 			children = (
 				AE9AEC4E264CF77400425423 /* HabitPalette */,
 				AE9AEC4D264CF77400425423 /* Products */,
+				CCB2F2B313240508AE75C6ED /* Pods */,
+				779F025ED133D3EDE559BFAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,48 @@
 		AE9AEC4E264CF77400425423 /* HabitPalette */ = {
 			isa = PBXGroup;
 			children = (
-				AE9AEC4F264CF77400425423 /* AppDelegate.swift */,
-				AE9AEC51264CF77400425423 /* SceneDelegate.swift */,
-				AE9AEC53264CF77400425423 /* ViewController.swift */,
-				AE9AEC55264CF77400425423 /* Main.storyboard */,
-				AE9AEC58264CF77500425423 /* Assets.xcassets */,
-				AE9AEC5A264CF77500425423 /* LaunchScreen.storyboard */,
-				AE9AEC5D264CF77500425423 /* Info.plist */,
+				AE9AEC66264CF7D700425423 /* Resource */,
+				AE9AEC65264CF7B800425423 /* Supporting Files */,
+				AE9AEC67264CF7EB00425423 /* UI */,
 			);
 			path = HabitPalette;
+			sourceTree = "<group>";
+		};
+		AE9AEC65264CF7B800425423 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9AEC4F264CF77400425423 /* AppDelegate.swift */,
+				AE9AEC51264CF77400425423 /* SceneDelegate.swift */,
+				AE9AEC5D264CF77500425423 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE9AEC66264CF7D700425423 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AE9AEC58264CF77500425423 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AE9AEC67264CF7EB00425423 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AE9AEC5A264CF77500425423 /* LaunchScreen.storyboard */,
+				AE9AEC53264CF77400425423 /* ViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CCB2F2B313240508AE75C6ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				854F670A46B3A84DCEC35AA7 /* Pods-HabitPalette.debug.xcconfig */,
+				E7903328AD150DAF980918D3 /* Pods-HabitPalette.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE9AEC60264CF77500425423 /* Build configuration list for PBXNativeTarget "HabitPalette" */;
 			buildPhases = (
+				20A44AC08F58C561062B61F5 /* [CP] Check Pods Manifest.lock */,
 				AE9AEC48264CF77400425423 /* Sources */,
 				AE9AEC49264CF77400425423 /* Frameworks */,
 				AE9AEC4A264CF77400425423 /* Resources */,
+				E44E05A0FADBE0F2B4C48511 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,11 +174,52 @@
 			files = (
 				AE9AEC5C264CF77500425423 /* LaunchScreen.storyboard in Resources */,
 				AE9AEC59264CF77500425423 /* Assets.xcassets in Resources */,
-				AE9AEC57264CF77400425423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20A44AC08F58C561062B61F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HabitPalette-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E44E05A0FADBE0F2B4C48511 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitPalette/Pods-HabitPalette-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HabitPalette/Pods-HabitPalette-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HabitPalette/Pods-HabitPalette-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE9AEC48264CF77400425423 /* Sources */ = {
@@ -146,14 +235,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE9AEC55264CF77400425423 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE9AEC56264CF77400425423 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE9AEC5A264CF77500425423 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +364,13 @@
 		};
 		AE9AEC61264CF77500425423 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854F670A46B3A84DCEC35AA7 /* Pods-HabitPalette.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UU57B563T;
-				INFOPLIST_FILE = HabitPalette/Info.plist;
+				INFOPLIST_FILE = "HabitPalette/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +384,13 @@
 		};
 		AE9AEC62264CF77500425423 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7903328AD150DAF980918D3 /* Pods-HabitPalette.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7UU57B563T;
-				INFOPLIST_FILE = HabitPalette/Info.plist;
+				INFOPLIST_FILE = "HabitPalette/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
