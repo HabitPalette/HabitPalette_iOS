@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -40,6 +40,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0110A77527BFE91600434150 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0110A77627BFE93000434150 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		779F025ED133D3EDE559BFAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,9 +83,11 @@
 		AE9AEC4E264CF77400425423 /* HabitPalette */ = {
 			isa = PBXGroup;
 			children = (
+				0110A77527BFE91600434150 /* Util */,
+				0110A77627BFE93000434150 /* Model */,
 				AE9AEC66264CF7D700425423 /* Resource */,
+				AE9AEC67264CF7EB00425423 /* Screen */,
 				AE9AEC65264CF7B800425423 /* Supporting Files */,
-				AE9AEC67264CF7EB00425423 /* UI */,
 			);
 			path = HabitPalette;
 			sourceTree = "<group>";
@@ -94,13 +110,13 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		AE9AEC67264CF7EB00425423 /* UI */ = {
+		AE9AEC67264CF7EB00425423 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
 				AE9AEC5A264CF77500425423 /* LaunchScreen.storyboard */,
 				AE9AEC53264CF77400425423 /* ViewController.swift */,
 			);
-			path = UI;
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		CCB2F2B313240508AE75C6ED /* Pods */ = {
@@ -109,7 +125,6 @@
 				854F670A46B3A84DCEC35AA7 /* Pods-HabitPalette.debug.xcconfig */,
 				E7903328AD150DAF980918D3 /* Pods-HabitPalette.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
