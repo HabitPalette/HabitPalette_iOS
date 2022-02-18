@@ -8,7 +8,6 @@ target 'HabitPalette' do
   # Pods for HabitPalette
 
   pod 'SnapKit', '~> 5.0.0'
-
-  pod 'Alamofire', '~> 5.2'
+  pod 'Moya', '~> 15.0'
 
 end
