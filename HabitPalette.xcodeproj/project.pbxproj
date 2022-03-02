@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01F7C53327CFBE61001FFBF7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F7C53227CFBE61001FFBF7 /* BaseViewController.swift */; };
 		12D03B38494DC9C50BD7BEA4 /* Pods_HabitPalette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13ECF35FCF9F9493328721B6 /* Pods_HabitPalette.framework */; };
 		AE9AEC50264CF77400425423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9AEC4F264CF77400425423 /* AppDelegate.swift */; };
 		AE9AEC52264CF77400425423 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9AEC51264CF77400425423 /* SceneDelegate.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01F7C53227CFBE61001FFBF7 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		13ECF35FCF9F9493328721B6 /* Pods_HabitPalette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitPalette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		854F670A46B3A84DCEC35AA7 /* Pods-HabitPalette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitPalette.debug.xcconfig"; path = "Target Support Files/Pods-HabitPalette/Pods-HabitPalette.debug.xcconfig"; sourceTree = "<group>"; };
 		AE9AEC4C264CF77400425423 /* HabitPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +45,7 @@
 		0110A77527BFE91600434150 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				01F7C53127CFBE4C001FFBF7 /* Base */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -52,6 +55,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		01F7C53127CFBE4C001FFBF7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				01F7C53227CFBE61001FFBF7 /* BaseViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		779F025ED133D3EDE559BFAD /* Frameworks */ = {
@@ -242,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9AEC54264CF77400425423 /* ViewController.swift in Sources */,
+				01F7C53327CFBE61001FFBF7 /* BaseViewController.swift in Sources */,
 				AE9AEC50264CF77400425423 /* AppDelegate.swift in Sources */,
 				AE9AEC52264CF77400425423 /* SceneDelegate.swift in Sources */,
 			);
