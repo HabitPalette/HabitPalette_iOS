@@ -47,7 +47,6 @@
 		0110A77527BFE91600434150 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				01F7C53127CFBE4C001FFBF7 /* Base */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -97,6 +96,7 @@
 		AE9AEC4E264CF77400425423 /* HabitPalette */ = {
 			isa = PBXGroup;
 			children = (
+				01F7C53127CFBE4C001FFBF7 /* Base */,
 				0110A77527BFE91600434150 /* Util */,
 				0110A77627BFE93000434150 /* Model */,
 				AE9AEC66264CF7D700425423 /* Resource */,

@@ -16,18 +16,9 @@ class BaseViewController: UIViewController {
     var disposeBag = DisposeBag()
     
     
-    // MARK: - Init
-    init() {
-        super.init(nibName: nil, bundle: nil)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    
     // MARK: - View Life Cycle
     override func viewDidLoad() {
+        setupLayout()
         setupConstraints()
         setupAttributes()
         setupLocalization()
@@ -35,20 +26,33 @@ class BaseViewController: UIViewController {
         setupBinding()
     }
     
+    
+    func setupLayout() {
+        
+    }
+    
     func setupConstraints() {
-        // view.addSubview(btn)
         // autolayout
     }
+    
     func setupAttributes() {
         
     }
+    
     func setupLocalization() {
         
     }
+    
     func setData() {
-        // btn.setTitle("", for: .normal)
+        // btn.setTitle("", .normal)
     }
+    
     func setupBinding() {
         // Rx
     }
+}
+
+extension BaseViewController {
+    // showAlert 같은 함수들 구현해두자.
+    // present, dismiss 라던지...
 }

@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: BaseViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    override func initialize() {
+        
     }
-
-
+    
+    override func configureUI() {
+        
+    }
+    
+    override func bindConstraints() {
+        
+    }
+    
 }
 
