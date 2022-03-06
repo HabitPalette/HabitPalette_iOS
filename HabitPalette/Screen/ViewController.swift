@@ -9,17 +9,20 @@ import UIKit
 
 class ViewController: BaseViewController {
 
-    override func initialize() {
+    override func setupLayout() {
         
     }
     
-    override func configureUI() {
+    override func setupConstraints() {
         
     }
     
-    override func bindConstraints() {
+    override func setData() {
         
     }
     
+    override func setupBinding() {
+        
+    }
 }
 

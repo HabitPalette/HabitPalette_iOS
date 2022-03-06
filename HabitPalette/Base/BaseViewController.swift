@@ -28,7 +28,7 @@ class BaseViewController: UIViewController {
     
     
     func setupLayout() {
-        
+        // self.view.addSubview(btn)
     }
     
     func setupConstraints() {
@@ -36,15 +36,15 @@ class BaseViewController: UIViewController {
     }
     
     func setupAttributes() {
-        
+        // btn.setTitle("", .normal)
     }
     
     func setupLocalization() {
-        
+        // language, country specific events
     }
     
     func setData() {
-        // btn.setTitle("", .normal)
+        // 이 데이터 개체에 지정된 데이터를 하나 이상의 지정된 데이터 형식과 함께 저장.
     }
     
     func setupBinding() {
