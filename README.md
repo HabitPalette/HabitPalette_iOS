@@ -44,7 +44,6 @@
 
 - 기획 : 임은지, 이소은
 - 디자인 : 지유정
-
 - iOS : 임은지
 - Android : 이소은
 - Back-end (Python / django) : 이성호
